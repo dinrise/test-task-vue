@@ -1,29 +1,31 @@
-# empty-vue-project
+# Тестовое задание Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Реализация тестового задания согласно предоставленным требованиям.
 
-## Recommended IDE Setup
+## Описание
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Страница состоит из 4 основных блоков:
+- Верхний левый: Выбранные вещи пользователя (от 1 до 6 элементов)
+- Верхний правый: Выбранная вещь из блока справа
+- Нижний левый: Вещи у пользователя (можно выбрать от 1 до 6 элементов)
+- Нижний правый: Вещи на выбор (можно выбрать только 1 элемент)
 
-## Customize configuration
+## Функционал
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- В нижнем левом блоке можно выбрать от 1 до 6 вещей, которые отображаются в верхнем левом блоке
+- В нижнем правом блоке можно выбрать только 1 вещь, которая отображается в верхнем правом блоке
+- В верхнем левом блоке показывается количество выбранных элементов
+- Можно отменить выбор элемента, кликнув по нему повторно
 
-## Project Setup
+## Установка и запуск
 
-```sh
+```bash
+# Установка зависимостей
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Запуск сервера разработки
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# Сборка для продакшена
 npm run build
 ```
